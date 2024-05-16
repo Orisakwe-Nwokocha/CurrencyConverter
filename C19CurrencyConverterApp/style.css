@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    /*text-align: center;*/
 }
 
 .container {
@@ -11,10 +10,14 @@ body {
     border-radius: 10px;
     background-color: #1f1f1f;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+
 }
 
 h2 {
     color: #ffffff;
+    text-align: center;
 }
 
 .currency {
@@ -23,12 +26,18 @@ h2 {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-left: 12px;
+}
+
+#amount {
+    width: 85%;
 }
 
 .submit {
-    width: 100%;
+    width: 92%;
     padding: 10px;
     margin-top: 10px;
+    margin-left: 12px;
     background-color: #28ae60;
     color: #fff;
     border: none;
