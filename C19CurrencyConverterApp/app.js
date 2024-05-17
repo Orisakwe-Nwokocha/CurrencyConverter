@@ -21,7 +21,7 @@ converter.addEventListener("submit", (event) => {
 
 function extract(exchangeRates, targetCurrency, amount) {
     const value = exchangeRates[targetCurrency];
-    const result = amount * value;
+    const result = (amount * value).toFixed(2);
     document.getElementById("result").innerText = `Converted value: ${targetCurrency} ` + result;
 }
 
