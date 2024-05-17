@@ -22,7 +22,7 @@ converter.addEventListener("submit", (event) => {
 function extract(exchangeRates, targetCurrency, amount) {
     const value = exchangeRates[targetCurrency];
     const result = amount * value;
-    document.getElementById("result").innerText = `Converted value: ${targetCurrency}` + result;
+    document.getElementById("result").innerText = `Converted value: ${targetCurrency} ` + result;
 }
 
 const convertCurrency = (url, targetCurrency, amount) => {
